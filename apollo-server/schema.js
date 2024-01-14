@@ -6,7 +6,7 @@ const typeDefs = `#graphql
     price: Float!
     sale_price: Float!
     description: String!
-    leftHand: Boolean!
+    left_hand: Boolean!
     loft: [Float!]!
     custom_options: String!
   }
