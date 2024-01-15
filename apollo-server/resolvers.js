@@ -24,6 +24,7 @@ const resolvers = {
         const result = await pool.query('SELECT * FROM club WHERE id = $1', [id]);
         return result.rows[0];
       },
+      
     },
   };
 
