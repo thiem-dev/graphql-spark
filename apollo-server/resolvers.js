@@ -24,19 +24,22 @@ const resolvers = {
         const result = await pool.query('SELECT * FROM club WHERE id = $1', [id]);
         return result.rows[0];
       },
-    Mutation: InsertClub($input : ClubInput!){
-      insertClub(input: $input){
-        id
-        imageUrls
-        title
-        price
-        salePrice
-        description
-        
-      }
-    }
-    }
-  };
+    // Mutation: InsertClub ($input: ClubInput!) {
+    //   insertClub(input: $input){
+    //     id
+    //     image_urls
+    //     title
+    //     price
+    //     salePrice
+    //     description
+    //     leftHand
+    //     loft
+    //     custom_options
+    //   }
+    // }
+  
+  }
+}
 
 
 

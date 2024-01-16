@@ -1,0 +1,13 @@
+{
+    "image_urls": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+    ],
+    "title": "Sample Club",
+    "price": 199.99,
+    "salePrice": 149.99,
+    "description": "A sample club description.",
+    "leftHand": true,
+    "loft": [10.0, 10.5, 11.0],
+    "custom_options": 
+}
